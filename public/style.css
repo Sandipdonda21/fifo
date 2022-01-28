@@ -1,0 +1,198 @@
+/* fonts */
+
+@font-face {
+    font-family: proximanova ;
+    src: url(./font/FontsFree-Net-proxima_nova_reg-webfont.ttf);
+}
+
+
+#root{
+    height: 100%;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.body{
+    height: 100%;
+}
+.side_bar{
+    width: 15%;
+    height: 100%;
+}
+.main_body{
+    width:85%;
+}
+.sidebar_up{
+    background-color: #2ecc71;
+    text-align: center;
+}
+.sidebar_up h4{
+    margin: auto;
+    font-size: 13px;
+    font-family: proximanova;
+    line-height: 60px;
+    color: white;
+}
+.sidebar_down{
+    background-color: #34495e;
+    height: 100%;
+}
+.sidebar_down ul{
+    padding: 0px;
+    padding-top: 25px;
+}
+.sidebar_down ul li{
+    align-items: center;
+    margin: 20px 0px;
+    display: flex;
+}
+.sidebar_down .sideicon{
+    fill :  #95a5a6;
+}
+.sidebar_down ul a{
+    text-decoration: none;
+    align-items: center;
+    margin: 15px 0px 15px 0px;
+    padding-left:15px
+}
+.sidebar_down ul a:hover{
+    background-color: #243342;
+    cursor: pointer;
+}
+.sidebar_down ul a:focus{
+    background-color: #243342;
+    cursor: pointer;
+}
+.sidebar_down ul li:hover svg{
+    fill: #2db96b;
+}
+.sidebar_down ul a:focus svg{
+    fill: #2db96b;
+}
+.sidebar_down h5{
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: proximanova ;
+    margin: 0px;
+    
+}
+.sidebar_down svg{
+    margin: auto 20px auto 5px;
+}
+.main_header{
+    width: 100%;
+    align-items: center;
+    height: 108px;
+    border-bottom: 1px solid #95a5a6;
+}
+.main_header .header_logo{
+    margin-right: 30px;
+}
+.main_header input{
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #95a5a6;
+    font-family: proximanova;
+    text-align: center;
+}
+.sec_header{
+    width: 100%;
+    align-items: center;
+    padding: 30px 50px;
+}
+.sec_header .person_info h4{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #2c3e50;
+    font-weight: bold;
+    font-family: proximanova;
+}
+.sec_header .person_info p{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #7f8c8d;
+    font-family: proximanova;
+    margin: 15px 0px;
+}
+.sec_header .person_info a{
+    text-decoration: none;
+}
+.checked{
+    color: orange;
+}
+.edit_logout{
+    display: flex;
+}
+.edit_logout .edit{
+    border: 1px solid #7f8c8d;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+}
+.edit_logout .edit svg{
+    margin: auto;
+}
+.edit_logout .edit:hover{
+    background-color: #2ecc71;
+    border: 1px solid #2ecc71;
+}
+.edit_logout .edit:hover *{
+    fill: #ffffff;
+}
+.edit_logout .logout{
+    border: 1px solid #7f8c8d;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+.edit_logout .logout:hover{
+    background-color: #2ecc71;
+    border: 1px solid #2ecc71;
+}
+.edit_logout .logout:hover *{
+    fill: #ffffff;
+}
+.edit_logout .logout svg{
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #7f8c8d;
+    padding: 0px !important;
+}
+.navbar ul{
+     display: flex;
+     width: 100%;
+     padding: 0px;
+     margin:0px;
+}
+.navbar ul li{
+    list-style-type: none;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 66px;
+    color: #2c3e50;
+    font-weight: bold;
+    font-family: proximanova;
+    height: 60px;
+    width: 100%;
+}
+.navbar ul a{
+    text-decoration: none;
+    padding: 0px 40px;
+    border-bottom: 5px solid #ffffff;
+}
+.navbar ul a:focus {
+    border-bottom: 5px solid #2ecc71;
+}
